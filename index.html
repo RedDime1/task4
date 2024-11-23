@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="Content">
+    <header id="screen1">
+        <img class="logo" alt="logo">
+
+        <nav class="top-nav-buttons">
+            <ul>
+                <li>
+                    <a href="#screen2">
+                        <button class="about-me-button">About me</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#screen3">
+                        <button class="education-button">Education</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#screen4">
+                        <button class="experience-button">Work Experience</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#screen5">
+                        <button class="skills-button">Skills</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#screen6">
+                        <button class="contacts-button">Contacts</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="screen2">
+        <h2 class="screen2-header">
+            Hello!<br>My name is Dmitry Kozlov<br>I'm creative front-end
+            developer
+        </h2>
+        <img class="Image" src="respectfull-chatting.jfif"
+             alt="My favorite photo when a friend took a picture while we were respectfully chatting sitting in a ditch.">
+    </section>
+    <section id="screen3">
+        <h2 class="screen3-title">Education</h2>
+        <section class="education">
+            <dl class="degree-info">
+                <dt class="uni-name">ITMO university</dt>
+                <dd class="degree-details">
+                    Bachelor's degree - Computer Technology
+                </dd>
+                <dd class="years">2022 - now</dd>
+            </dl>
+            <dl class="degree-info">
+                <dt class="uni-name">Lyceum "Physical-Technical High School"</dt>
+                <dd class="degree-details">
+                    Diploma's degree - Mathematics and Physics
+                </dd>
+                <dd class="years">2020 - 2022</dd>
+            </dl>
+            <dl class="degree-info">
+                <dt class="uni-name">Kaliningrad school #6</dt>
+                <dd class="degree-details">Basic general education</dd>
+                <dd class="years">2013 - 2020</dd>
+            </dl>
+            <dl class="degree-info">
+                <dt class="uni-name">Saint Petersburg school №511</dt>
+                <dd class="degree-details">Ultra Basics</dd>
+                <dd class="years">2011 - 2013</dd>
+            </dl>
+        </section>
+    </section>
+    <section id="screen4">
+        <h2 class="screen4-title">Work Experience</h2>
+        <section class="screen4-button-group">
+            <a href="#">
+                <button>ITMO</button>
+            </a>
+            <a href="#">
+                <button>Math olimpiad</button>
+            </a>
+        </section>
+        <section class="screen4-text-image">
+            <div class="job-text">
+                <div class="job-info">
+                    <p class="job-name">Inspector at the Mathematical Olympiad</p>
+                    <p class="job-place">Saint Peterburg, Russia</p>
+                </div>
+                <p class="job-dates">Sep 2022 - Aug 2024 &middot; Freelancer</p>
+                <p class="job-history">
+                    Я пока не придумал, как совмещать полный рабочий день и учёбу.
+                    Поэтому пока подрабатываю в олимпиадном направлении: два раза был
+                    проверяющим на олимпиаде для школьников, также занимаюсь
+                    репетиторством по ЕГЭ (математика, информатика) и олимпиадной
+                    математике.
+                </p>
+                <p class="job-history">
+                    Улучшить свои социальные умения помогла работа эдвайзером прямо в
+                    ИТМО. Эдвайзер это следующая стадия эволюции куратора. Жаль, что
+                    это продержалось на кт только год.
+                </p>
+            </div>
+            <img class="Image" src="advising.jfif"
+                 alt="Teamwork with my adviser partner">
+        </section>
+    </section>
+    <section id="screen5">
+        <h2 class="screen5-title">Skills</h2>
+        <section class="skills">
+            <section class="skill-info">
+                <div class="skill-title">Java</div>
+                <progress value="100" max="100"></progress>
+            </section>
+            <section class="skill-info">
+                <div class="skill-title">Soft skill</div>
+                <progress value="100" max="100"></progress>
+            </section>
+            <section class="skill-info">
+                <div class="skill-title">Logics</div>
+                <progress value="100" max="100"></progress>
+            </section>
+            <section class="skill-info">
+                <div class="skill-title">Planning</div>
+                <progress value="95" max="100"></progress>
+            </section>
+            <section class="skill-info">
+                <div class="skill-title">HTML + CSS</div>
+                <progress value="20" max="100"></progress>
+            </section>
+            <section class="skill-info">
+                <div class="skill-title">Javascript</div>
+                <progress value="35" max="100"></progress>
+            </section>
+            <section class="skill-info">
+                <div class="skill-title">C++</div>
+                <progress value="20" max="100"></progress>
+            </section>
+            <section class="skill-info">
+                <div class="skill-title">Haskell</div>
+                <progress value="40" max="100"></progress>
+            </section>
+            <section class="skill-info">
+                <div class="skill-title">Python</div>
+                <progress value="50" max="100"></progress>
+            </section>
+            <section class="skill-info">
+                <div class="skill-title">Teamwork</div>
+                <progress value="90" max="100"></progress>
+            </section>
+        </section>
+        <section class="add-new-skill">
+            <h3 class="add-new-skill-title">Add new skill</h3>
+            <form class="add-new-skill-form">
+                <div class="add-new-skill-form-field">
+                    <label for="new-skill-name" class="new-skill-label">Skill name</label>
+                    <input type="text" id="new-skill-name" class="new-skill-text-input">
+                </div>
+                <div class="add-new-skill-form-field">
+                    <label for="new-skill-prof" class="new-skill-label">Skill proficiency percentage, %</label>
+                    <input type="number" id="new-skill-prof" class="new-skill-text-input">
+                </div>
+                <button class="new-skill-button">Add</button>
+            </form>
+        </section>
+    </section>
+    <section id="personality">
+        <h2 class="personality-title">Personality Traits</h2>
+        <section class="personality-grafics-section">
+            <div class="personality-element energy">
+                <div class="personality-labels">
+                    <label for="energy" class="main-feature">Extraverted</label>
+                    <label for="energy" class="side-feature">Introverted</label>
+                </div>
+                <div name="energy" class="personality-bar energy">
+                    <div class="dot energy"></div>
+                </div>
+            </div>
+            <div class="personality-element intelligence">
+                <div class="personality-labels">
+                    <label for="intelligence" class="side-feature">Intuitive</label>
+                    <label for="intelligence" class="main-feature">Realistic</label>
+                </div>
+                <div name="intelligence" class="personality-bar intelligence">
+                    <div class="dot"></div>
+                </div>
+            </div>
+            <div class="personality-element nature">
+                <div class="personality-labels">
+                    <label for="nature" class="main-feature">Logic</label>
+                    <label for="nature" class="side-feature">Principles</label>
+                </div>
+                <div name="nature" class="personality-bar nature">
+                    <div class="dot"></div>
+                </div>
+            </div>
+            <div class="personality-element tactics">
+                <div class="personality-labels">
+                    <label for="tactics" class="side-feature">Planning</label>
+                    <label for="tactics" class="main-feature">Seeker</label>
+                </div>
+                <div name="tactics" class="personality-bar tactics">
+                    <div class="dot"></div>
+                </div>
+            </div>
+            <div class="personality-element personality">
+                <div class="personality-labels">
+                    <label for="personality" class="main-feature">Confident</label>
+                    <label for="personality" class="side-feature">Cautious</label>
+                </div>
+                <div name="personality" class="personality-bar personality">
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="screen6">
+        <h2 class="screen6-title">Contacts</h2>
+        <section class="contacts">
+            <a href="https://yandex.ru/maps/-/CDxwmO3P">
+                <section class="contacts-option">
+                    <img class="pin" alt="pin">
+                    <p class="contact-title">Address</p>
+                    <p class="contact-details">19 Galitskay st., St Peterburg</p>
+                </section>
+            </a>
+            <a href="tel:+79533672972">
+                <section class="contacts-option">
+                    <img class="phone-call" alt="phone">
+                    <p class="contact-title">Phone</p>
+                    <p class="contact-details">+7 (953) 367 29 72</p>
+                </section>
+            </a>
+            <a href="mailto:dima.dima0029@gmail.com">
+                <section class="contacts-option">
+                    <img class="mail" alt="mail">
+                    <p class="contact-title">E-Mail</p>
+                    <p class="contact-details">dima.dima0029@gmail.com</p>
+                </section>
+            </a>
+        </section>
+    </section>
+    <footer id="screen7">
+        <section class="social-media">
+            <a href="#"><img class="instagram" alt="Instagram"></a>
+            <a href="https://github.com/RedDime1"><img class="github" alt="Github"></a>
+            <a href="#"><img class="twitter" alt="Twitter"></a>
+            <a href="#"><img class="linkedin" alt="Linkedin"></a>
+        </section>
+        <p class="copyright">&copy; 2023</p>
+    </footer>
+</div>
+</body>
+</html>
