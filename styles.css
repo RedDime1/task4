@@ -24,7 +24,7 @@ body
     align-items: center;
 }
 
-.Content
+.content
 {
     gap: 120px;
     width: 1140px;
@@ -33,7 +33,7 @@ body
     justify-content: space-between;
 }
 
-#screen1
+.header
 {
     display: flex;
     flex-flow: row;
@@ -66,7 +66,7 @@ body
     color: #363e45;
 }
 
-#screen2
+.hello-section
 {
     display: flex;
     flex-flow: column;
@@ -74,7 +74,7 @@ body
     align-self: stretch;
 }
 
-.screen2-header
+.hello-section-header
 {
     color: #363e45;
     font-size: 48px;
@@ -84,7 +84,7 @@ body
     padding: 0;
 }
 
-#screen2 .Image
+.hello-section .image
 {
     border-radius: 8px;
     width: 1140px;
@@ -92,7 +92,7 @@ body
     object-fit: cover;
 }
 
-#screen3
+.education-section
 {
     display: flex;
     flex-flow: column;
@@ -100,7 +100,7 @@ body
     height: 440px;
 }
 
-.screen3-title
+.education-section-title
 {
     font-weight: 500;
     font-size: 48px;
@@ -151,7 +151,7 @@ body
     margin: 0;
 }
 
-#screen4
+.work-section
 {
     display: flex;
     flex-flow: column;
@@ -160,7 +160,7 @@ body
     gap: 40px;
 }
 
-.screen4-title
+.work-section-title
 {
     font-size: 48px;
     line-height: 48px;
@@ -169,14 +169,14 @@ body
     margin: 0;
 }
 
-.screen4-button-group
+.work-section-button-group
 {
     display: flex;
     flex-flow: row;
     gap: 8px;
 }
 
-.screen4-button-group button
+.work-section-button-group button
 {
     border: 1px solid #98a3ae7a;
     background-color: white;
@@ -191,7 +191,7 @@ body
     color: #363e45;
 }
 
-.screen4-text-image
+.work-section-text-image
 {
     display: flex;
     flex-flow: row;
@@ -242,7 +242,7 @@ body
     color: #363e45;
 }
 
-#screen4 .Image
+.work-section .image
 {
     width: 554px;
     height: 400px;
@@ -250,7 +250,7 @@ body
     object-fit: cover;
 }
 
-#screen5
+.skills-section
 {
     display: flex;
     flex-flow: column;
@@ -258,7 +258,7 @@ body
     height: 728px;
 }
 
-.screen5-title
+.skills-section-title
 {
     margin: 0;
     font-size: 48px;
@@ -511,7 +511,7 @@ progress::-webkit-progress-value
     color: #363e45cc;
 }
 
-#screen6
+.contacts-section
 {
     display: flex;
     flex-flow: column;
@@ -520,7 +520,7 @@ progress::-webkit-progress-value
     height: 488px;
 }
 
-.screen6-title
+.contacts-section-title
 {
     font-size: 48px;
     line-height: 48px;
@@ -598,7 +598,7 @@ a
     text-decoration: none;
 }
 
-#screen7
+.footer
 {
     display: flex;
     flex-flow: row;
